@@ -1,0 +1,246 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbarDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-page-tour-packages-container,
+.home-page {
+  flex: 1;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(120vh);
+  color: white;
+  padding-top: 200px;
+  position: relative;
+}
+
+.home-page {
+  background-image: url("../../../public/assets/hero\ image.png");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.home-page-tour-packages-container {
+  background-image: url("../../../public/assets/home-2.png");
+}
+
+.home-page-heading {
+  position: absolute;
+  bottom: 30%;
+  left: 30px;
+}
+
+.actionsContainer,
+.highlights {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.highlights {
+  background-color: #eee1be;
+}
+
+.actionsContainer {
+  background-color: rgba(0, 0, 0, 0.644);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.highlightContainer {
+  background-color: #cfb165;
+  margin: 10px;
+  border-radius: 30px;
+  display: flex;
+  height: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.highlightImage {
+  width: 123px;
+  height: 123px;
+}
+
+.highlightParagraph {
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+  .home-page {
+    padding-top: 150px;
+    height: calc(100vh);
+    padding: 10px;
+  }
+
+  .home-page-heading {
+    bottom: 20%;
+    left: 20px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .highlights {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .highlightContainer {
+    height: auto;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .highlightImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .highlightParagraph {
+    font-size: 18px;
+  }
+}
+
+.action {
+  display: block;
+  margin: 20px;
+}
+
+.actionButton {
+  background-color: #cfb165;
+  border: none;
+  width: 165px;
+  height: 65px;
+  border-radius: 14px;
+}
+
+.actionButtonContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.toursContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 10px;
+}
+
+.tourCard {
+  background-color: #fff;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+.tourCardImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  filter: blur(1px);
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.tourCardImage:hover {
+  filter: blur(0);
+}
+
+.tourCard .price {
+  position: absolute;
+  top: 10px;
+  left: 10px; /* Position from the left */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  color: black;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.tourName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tourTime {
+  padding: 0%;
+  color: black;
+  font-size: 12px;
+  display: flex;
+  gap: 4px;
+  margin-top: -15px;
+}
+
+.tourTime .clockImg {
+  width: 15px;
+  height: 15px;
+}
+
+@media (max-width: 480px) {
+  .home-page-heading {
+    bottom: 10%;
+    left: 10px;
+    font-size: 1.2rem;
+  }
+
+  .highlightImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .highlightParagraph {
+    font-size: 16px;
+    padding: 5px;
+  }
+}

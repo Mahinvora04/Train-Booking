@@ -1,0 +1,22 @@
+.content-container {
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  padding: 80px;
+}
+
+.inner-content {
+  padding: 0px 40px;
+}
+
+.aboutusHeading{
+  color: #FFD979;
+  font-size: 64px;
+}
+
+.aboutusParagraph{
+  font-size: 40px;
+  color: white;
+}

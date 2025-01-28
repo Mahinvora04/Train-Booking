@@ -1,0 +1,98 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  background: url("../../../public/assets/hero\ image.png");
+  background-size: cover;
+}
+
+.login-card {
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  background-color: #ffffffce;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+.logo-image {
+  width: 170px;
+  align-items: flex-start;
+
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-form label {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid gray;
+}
+
+.login-form input:focus {
+  border-color: #cfb165;
+  outline: none;
+  box-shadow: 0 0 4px rgba(207, 177, 101, 0.25);
+}
+
+.login-button {
+  width: 166px;
+  padding: 5px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #cfb165;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.login-button:hover {
+  background-color: #d8b459;
+}
+
+.navbarDiv {
+  margin-bottom: 20px;
+}
+
+.login-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.remember-me-div {
+  display: flex;
+  height: 10px;
+}
