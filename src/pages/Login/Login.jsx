@@ -9,13 +9,13 @@ const Login = () => {
       <div className="navbarDiv">
         <Navbar />
       </div>
-      <div className="login-page">
-        <div className="login-card">
-          <div className="logo-container">
-            <img src="/assets/logo1.png" alt="logo" className="logo-image" />
+      <div className="loginPage">
+        <div className="loginCard">
+          <div className="logoContainer">
+            <img src="/assets/logo1.png" alt="logo" className="logoImage" />
           </div>
-          <form className="login-form">
-            <div className="form-group">
+          <form className="loginForm">
+            <div className="loginFormFroup">
               <input
                 type="email"
                 id="email"
@@ -23,7 +23,7 @@ const Login = () => {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="loginFormFroup">
               <input
                 type="password"
                 id="password"
@@ -31,18 +31,8 @@ const Login = () => {
                 required
               />
             </div>
-            <div
-              className="login-card-bottom"
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
-              <div
-                className="remember-me-div"
-                style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
-              >
+            <div className="loginCardBottom">
+              <div className="rememberMeDiv">
                 <input
                   type="checkbox"
                   id="remember"
@@ -53,7 +43,7 @@ const Login = () => {
               </div>
               <div>
                 <p
-                  className="forget-password"
+                  className="forgetPassword"
                   style={{ margin: 0, cursor: "pointer" }}
                 >
                   Forgot Password?
@@ -61,7 +51,7 @@ const Login = () => {
               </div>
             </div>
 
-            <button type="submit" className="login-button">
+            <button type="submit" className="loginButton">
               Login
             </button>
           </form>

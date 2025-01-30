@@ -1,4 +1,4 @@
-.login-page {
+.loginPage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
   background-size: cover;
 }
 
-.login-card {
+.loginCard {
   width: 350px;
   height: 400px;
   padding: 20px;
@@ -20,38 +20,30 @@
   margin-bottom: 50px;
 }
 
-.logo-container{
-    display: flex;
-    justify-content: start;
-    margin-bottom: 50px;
+.logoContainer {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 50px;
 }
 
-.logo-image {
+.logoImage {
   width: 170px;
   align-items: flex-start;
-
 }
 
-.login-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #333333;
-}
-
-.login-form .form-group {
+.loginForm .loginFormFroup {
   margin-bottom: 15px;
   text-align: left;
 }
 
-.login-form label {
+.loginFormFroup label {
   font-size: 14px;
   color: #555555;
   margin-bottom: 5px;
   display: block;
 }
 
-.login-form input {
+.loginForm input {
   width: 100%;
   padding: 5px 10px;
   font-size: 18px;
@@ -60,13 +52,13 @@
   border-bottom: 2px solid gray;
 }
 
-.login-form input:focus {
+.loginForm input:focus {
   border-color: #cfb165;
   outline: none;
   box-shadow: 0 0 4px rgba(207, 177, 101, 0.25);
 }
 
-.login-button {
+.loginButton {
   width: 166px;
   padding: 5px;
   font-size: 18px;
@@ -78,7 +70,7 @@
   margin-top: 50px;
 }
 
-.login-button:hover {
+.loginButton:hover {
   background-color: #d8b459;
 }
 
@@ -86,13 +78,18 @@
   margin-bottom: 20px;
 }
 
-.login-card-bottom {
+.loginCardBottom {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+  display: "flex";
+  justify-content: "space-between";
+  align-items: "center";
 }
 
-.remember-me-div {
+.rememberMeDiv {
   display: flex;
-  height: 10px;
+  height: 20px;
+  align-items: "center";
+  gap: 0.5rem;
 }

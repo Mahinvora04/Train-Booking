@@ -9,8 +9,8 @@ const Home = () => {
       <div className="navbarDiv">
         <Navbar />
       </div>
-      <div className="home-page">
-        <div className="container text-left home-page-heading">
+      <div className="homePage">
+        <div className="container text-left homePageHeading">
           <h1 className="heading">
             Relax with <br />
             <span className="tourName">Van Lang Tour</span>
@@ -34,7 +34,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="home-page-tour-packages-container">
+      <div className="homePageTourPackagesContainer">
         <div className="actionsContainer">
           <div className="action">
             <p className="actionName">Keywords</p>
@@ -84,7 +84,11 @@ const Home = () => {
         </div>
         <div className="toursContainer">
           <div className="tourCard">
-            <img className="tourCardImage" src="/assets/hanoi-box.png" alt="Tour 1" />
+            <img
+              className="tourCardImage"
+              src="/assets/hanoi-box.png"
+              alt="Tour 1"
+            />
             <div className="price">From $60</div>
             <p className="tourName text-start pl-2">Sài Gòn - Hà Nội</p>
             <p className="tourTime text-start pl-2">
@@ -94,7 +98,11 @@ const Home = () => {
             </p>{" "}
           </div>
           <div className="tourCard">
-            <img className="tourCardImage" src="/assets/da-nang.png" alt="Tour 2" />
+            <img
+              className="tourCardImage"
+              src="/assets/da-nang.png"
+              alt="Tour 2"
+            />
             <div className="price">From $30</div>
             <p className="tourName text-start pl-2">Hà Dội - Dà Nẵng</p>
             <p className="tourTime text-start pl-2">
@@ -104,7 +112,11 @@ const Home = () => {
             </p>{" "}
           </div>
           <div className="tourCard">
-            <img className="tourCardImage" src="/assets/halong-box.png" alt="Tour 3" />
+            <img
+              className="tourCardImage"
+              src="/assets/halong-box.png"
+              alt="Tour 3"
+            />
             <div className="price">From $10</div>
             <p className="tourName text-start pl-2">Bắc Ninh - Hạ Long</p>
             <p className="tourTime text-start pl-2">

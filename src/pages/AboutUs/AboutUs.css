@@ -1,5 +1,22 @@
-.content-container {
+.contentContainer {
   background-color: black;
+}
+
+.aboutUsPage {
+  flex: 1;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(120vh);
+  color: white;
+  padding-top: 200px;
+  position: relative;
+  background-image: url("../../../public/assets/hero\ image.png");
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .content {
@@ -7,16 +24,16 @@
   padding: 80px;
 }
 
-.inner-content {
+.innerContent {
   padding: 0px 40px;
 }
 
-.aboutusHeading{
-  color: #FFD979;
+.aboutusHeading {
+  color: #ffd979;
   font-size: 64px;
 }
 
-.aboutusParagraph{
+.aboutusParagraph {
   font-size: 40px;
   color: white;
 }

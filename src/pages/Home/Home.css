@@ -17,8 +17,8 @@ html {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.home-page-tour-packages-container,
-.home-page {
+.homePageTourPackagesContainer,
+.homePage {
   flex: 1;
   display: block;
   align-items: center;
@@ -33,16 +33,16 @@ html {
   position: relative;
 }
 
-.home-page {
+.homePage {
   background-image: url("../../../public/assets/hero\ image.png");
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.home-page-tour-packages-container {
+.homePageTourPackagesContainer {
   background-image: url("../../../public/assets/home-2.png");
 }
 
-.home-page-heading {
+.homePageHeading {
   position: absolute;
   bottom: 30%;
   left: 30px;
@@ -104,13 +104,13 @@ html {
 }
 
 @media (max-width: 1024px) {
-  .home-page {
+  .homePage {
     padding-top: 150px;
     height: calc(100vh);
     padding: 10px;
   }
 
-  .home-page-heading {
+  .homePageHeading {
     bottom: 20%;
     left: 20px;
     text-align: left;
@@ -228,7 +228,7 @@ html {
 }
 
 @media (max-width: 480px) {
-  .home-page-heading {
+  .homePageHeading {
     bottom: 10%;
     left: 10px;
     font-size: 1.2rem;

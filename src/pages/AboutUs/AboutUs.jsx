@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="navbarDiv">
         <Navbar />
       </div>
-      <div className="home-page">
+      <div className="aboutUsPage">
         <div>
           <h1 className="heading">
             <span className="tourName">Van Lang </span>
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <button className="viewButton">Click Here</button>
         </div>{" "}
       </div>
-      <div className="content-container">
+      <div className="contentContainer">
         <div className="content">
           <div>
             <img src="/assets/image 1.png" alt="" />
           </div>
-          <div className="inner-content">
+          <div className="innerContent">
             <h1 className="aboutusHeading">Our Story</h1>
             <p className="aboutusParagraph">
               At Van Lang Tour, we believe that every journey holds the promise
