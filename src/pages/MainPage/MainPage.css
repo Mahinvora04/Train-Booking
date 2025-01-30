@@ -54,17 +54,72 @@ html {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #fff; 
-  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   text-align: center;
 }
 
-.viewButton{
+.viewButton {
   border-radius: 8px;
   background-color: #cfb165;
   border: none;
   margin: 10px;
   padding: 10px;
   font-weight: bold;
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 992px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  .heading .tourName,
+  .heading .tour {
+    font-size: 3rem;
+  }
+  .viewButton {
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+  .mainPage {
+    height: 100vh; /* Adjust height */
+    padding-top: 150px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .heading .tourName,
+  .heading .tour {
+    font-size: 2.5rem;
+  }
+  .viewButton {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+  .mainPage {
+    height: 60vh;  
+  }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  .heading .tourName,
+  .heading .tour {
+    font-size: 2rem;
+  }
+  .viewButton {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+  .mainPage {
+    height: 50vh;
+  }
 }

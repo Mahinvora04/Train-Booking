@@ -31,10 +31,11 @@ html {
   color: white;
   padding-top: 200px;
   position: relative;
+  background-color: black;
 }
 
 .homePage {
-  background-image: url("../../../public/assets/hero\ image.png");
+  background-image: url("../../../public/assets/hero\ image.png") !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -178,7 +179,7 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 250px;
-  position: relative; /* Allows absolute positioning of child elements */
+  position: relative;
 }
 
 .tourCardImage {
@@ -195,7 +196,7 @@ html {
   filter: blur(0);
 }
 
-.tourCard .price {
+.tourCard .cardPrice {
   position: absolute;
   top: 10px;
   left: 10px; /* Position from the left */
@@ -227,20 +228,31 @@ html {
   height: 15px;
 }
 
-@media (max-width: 480px) {
-  .homePageHeading {
-    bottom: 10%;
-    left: 10px;
-    font-size: 1.2rem;
+/* Mobile Devices (Max-width: 768px) */
+@media (max-width: 768px) {
+  .homePage {
+    padding-top: 100px;
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
   }
 
-  .highlightImage {
-    width: 80px;
-    height: 80px;
+  .actionsContainer {
+    flex-direction: column;
+    top: 300px;
   }
 
-  .highlightParagraph {
-    font-size: 16px;
-    padding: 5px;
+  .homePageTourPackagesContainer{
+    height: 250vh;
+  }
+
+  .toursContainer {
+    flex-direction: column;
+   margin-top: 600px;
+  }
+
+  .tourCard{
+    width: 90%;
+    margin: 20px auto;
   }
 }

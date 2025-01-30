@@ -98,3 +98,10 @@
   position: fixed;
   right: 10px;
 }
+
+@media (max-width: 768px) {
+  .signUpCard {
+    height: 700px;
+    margin: 10px;
+  }
+}

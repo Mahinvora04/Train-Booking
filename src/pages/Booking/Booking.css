@@ -102,3 +102,22 @@ html {
 .priceNumber {
   color: #dca400;
 }
+
+@media (max-width: 768px) {
+  .bookingCardsContainer {
+    top: 1000px;
+  }
+
+  .bookingDetailsCard {
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .detail {
+    flex-direction: column;
+  }
+
+  .price{
+    position: relative;
+  }
+}

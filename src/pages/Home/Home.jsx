@@ -10,8 +10,8 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="homePage">
-        <div className="container text-left homePageHeading">
-          <h1 className="heading">
+        <div className=" text-left homePageHeading">
+          <h1 className="heading text-left">
             Relax with <br />
             <span className="tourName">Van Lang Tour</span>
           </h1>
@@ -89,7 +89,7 @@ const Home = () => {
               src="/assets/hanoi-box.png"
               alt="Tour 1"
             />
-            <div className="price">From $60</div>
+            <div className="cardPrice">From $60</div>
             <p className="tourName text-start pl-2">Sài Gòn - Hà Nội</p>
             <p className="tourTime text-start pl-2">
               {" "}
@@ -103,7 +103,7 @@ const Home = () => {
               src="/assets/da-nang.png"
               alt="Tour 2"
             />
-            <div className="price">From $30</div>
+            <div className="cardPrice">From $30</div>
             <p className="tourName text-start pl-2">Hà Dội - Dà Nẵng</p>
             <p className="tourTime text-start pl-2">
               {" "}
@@ -117,7 +117,7 @@ const Home = () => {
               src="/assets/halong-box.png"
               alt="Tour 3"
             />
-            <div className="price">From $10</div>
+            <div className="cardPrice">From $10</div>
             <p className="tourName text-start pl-2">Bắc Ninh - Hạ Long</p>
             <p className="tourTime text-start pl-2">
               {" "}
