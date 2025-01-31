@@ -21,7 +21,7 @@ html {
   flex: 1;
   display: block;
   align-items: center;
-  text-align: center;
+  text-align: center;                                       
   justify-content: center;
   background-size: cover;
   background-position: center;
@@ -111,6 +111,7 @@ html {
   .bookingDetailsCard {
     height: fit-content;
     flex-direction: column;
+    margin: 0px;
   }
 
   .detail {
