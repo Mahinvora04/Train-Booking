@@ -11,7 +11,7 @@ const Booking = () => {
       </div>
       <div className="bookingPage">
         <div className="bookingPageActionsContainer">
-          <div className="actionsContainer">
+          <div className="actionsContainer">  
             <div className="action">
               <p className="actionName">Keywords</p>
               <button className="actionButton">
